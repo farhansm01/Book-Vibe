@@ -2,7 +2,7 @@ import bannerImg from "../assets/hero_img.jpg";
 
 const Banner = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4">
+    <div className="max-w-7xl mx-auto px-4 md:px-0">
       <div className="bg-[#F3F3F3] rounded-2xl px-6 md:px-16 py-12 md:py-24 flex flex-col-reverse md:flex-row items-center justify-between gap-6 my-6">
         {/* Left - Text Content */}
         <div className="flex flex-col gap-5 w-full md:w-1/2">
