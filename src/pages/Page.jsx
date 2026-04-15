@@ -1,5 +1,10 @@
+import PagesChart from "../components/PagesChart";
 const Page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <PagesChart />
+    </div>
+  );
 };
 
 export default Page;
