@@ -1,10 +1,25 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const BooksContext = createContext();
 
 const BooksProvider = ({ children }) => {
-  const [readList, setReadList] = useState([]);
-  const [wishList, setWishList] = useState([]);
+  const [readList, setReadList] = useState(() => {
+    const saved = localStorage.getItem("readList");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  const [wishList, setWishList] = useState(() => {
+    const saved = localStorage.getItem("wishList");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("readList", JSON.stringify(readList));
+  }, [readList]);
+
+  useEffect(() => {
+    localStorage.setItem("wishList", JSON.stringify(wishList));
+  }, [wishList]);
 
   const addToReadList = (book) => {
     setReadList([...readList, book]);
