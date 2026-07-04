@@ -6,7 +6,7 @@ A React-based book library app where users can browse books, view details, and m
 
 ## 🔗 Live Demo
 
-[book-vibe.netlify.app](#) <!-- replace with your actual URL -->
+[book-vibe-fsm.netlify.app](https://book-vibe-fsm.netlify.app/)
 
 ---
 
@@ -99,13 +99,14 @@ public/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/book-vibe.git
+git clone https://github.com/farhansm01/Book-Vibe.git
 
 # 2. Navigate into the project
-cd book-vibe
+cd Book-Vibe
 
 # 3. Install dependencies
 npm install
+npm install react-router react-hot-toast react-tabs recharts
 
 # 4. Start the dev server
 npm run dev
@@ -115,20 +116,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 📦 Dependencies
-
-```bash
-npm install react-router-dom react-hot-toast react-tabs recharts
-```
-
----
-
 ## 📸 Screenshots
 
-<!-- Add screenshots here -->
-| Homepage | Book Details | Listed Books |
-|---|---|---|
-| ![homepage](#) | ![details](#) | ![listed](#) |
+*Coming soon*
 
 ---
 
