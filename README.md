@@ -116,11 +116,6 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 📸 Screenshots
-
-*Coming soon*
-
----
 
 ## 🧠 What I Learned
 
@@ -131,7 +126,3 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 - Building custom SVG chart shapes inside Recharts
 
 ---
-
-## 📄 License
-
-MIT License — feel free to use and modify.
